@@ -1,0 +1,37 @@
+name: bluetooth_thermal_printer_pro
+description: A Flutter plugin to connect and print text/images to Bluetooth thermal printers.Updated Bluetooth thermal printer plugin (Android) for modern Flutter/Kotlin/AGP.
+publish_to: "https://pub.dev" # remove if you don't want to publish yet
+
+version: 0.0.1
+homepage: https://github.com/aselak30/bluetooth_thermal_printer_pro
+repository: https://github.com/aselak30/bluetooth_thermal_printer_pro
+issue_tracker: https://github.com/aselak30/bluetooth_thermal_printer_pro/issues
+
+environment:
+  sdk: ">=2.19.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+
+flutter:
+
+  plugin:
+    platforms:
+      android:
+        package: com.devnest.bluetooth_thermal_printer_pro
+        pluginClass: BluetoothThermalPrinterProPlugin
+
+# metadata
+repository: https://github.com/your/repo
+# author: Your Name <you@yourdomain.com>
+license: MIT
+
+ 

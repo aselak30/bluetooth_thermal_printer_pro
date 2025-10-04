@@ -1,15 +1,19 @@
 # bluetooth_thermal_printer_pro
 
-A new Flutter plugin project.
+A Flutter plugin to connect and print text/images on Bluetooth thermal printers (Android supported).
 
-## Getting Started
+## Features
+- ✅ Check Bluetooth status
+- ✅ List paired devices
+- ✅ Connect to a printer
+- ✅ Print text
+- ✅ Print images (ESC/POS)
 
-This project is a starting point for a Flutter
-[plug-in package](https://flutter.dev/to/develop-plugins),
-a specialized package that includes platform-specific implementation code for
-Android and/or iOS.
+## Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Add this to your `pubspec.yaml`:
+
+```yaml
+dependencies:
+  bluetooth_thermal_printer_pro: ^0.0.1
 

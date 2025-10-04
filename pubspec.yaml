@@ -30,7 +30,7 @@ flutter:
         pluginClass: BluetoothThermalPrinterProPlugin
 
 # metadata
-repository: https://github.com/your/repo
+# repository: https://github.com/aselak30/bluetooth_thermal_printer_pro
 # author: Your Name <you@yourdomain.com>
 license: MIT
 

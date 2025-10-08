@@ -1,25 +1,37 @@
-# bluetooth_thermal_printer_pro
+# 🖨 bluetooth_thermal_printer_pro
 
-A Flutter plugin to connect and print text/images on Bluetooth thermal printers (Android supported).
+A Flutter plugin to **connect and print text/images** on Bluetooth thermal printers (Android supported). Perfect for POS apps, receipts, or any situation where Bluetooth printing is needed.
 
-## Features
-- ✅ Check Bluetooth status
-- ✅ List paired devices
-- ✅ Connect to a printer
-- ✅ Print text
-- ✅ Print images (ESC/POS)
+![Flutter](https://img.shields.io/badge/Flutter-Compatible-blue?logo=flutter)
+![Pub Version](https://img.shields.io/pub/v/bluetooth_thermal_printer_pro)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-## Installation
+---
+
+## Support
+
+If you find this package helpful, consider supporting me:
+
+[![Buy Me a Coffee](https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png)](https://www.buymeacoffee.com/aselak30)
+
+---
+
+## ✨ Features
+
+- ✅ Check Bluetooth status  
+- ✅ List paired devices  
+- ✅ Connect to a printer  
+- ✅ Print text  
+- ✅ Print images (ESC/POS)  
+
+---
+
+## 🚀 Getting Started
+
+### Installation
 
 Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  bluetooth_thermal_printer_pro: ^0.0.1
-
-## ☕ Support the Developer
-
-If you find this package helpful, you can support my work by buying me a coffee! ❤️  
-<a href="https://www.buymeacoffee.com/aselak30" target="_blank">
-  <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" height="41" width="174">
-</a>
+  bluetooth_thermal_printer_pro: ^0.0.2

@@ -34,4 +34,4 @@ Add this to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  bluetooth_thermal_printer_pro: ^0.0.2
+  bluetooth_thermal_printer_pro: ^0.0.3

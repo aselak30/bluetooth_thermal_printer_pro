@@ -3,6 +3,8 @@ description: A Flutter plugin to connect and print text/images to Bluetooth ther
 
 version: 0.0.2
 homepage: https://github.com/aselak30/bluetooth_thermal_printer_pro
+funding:
+  - https://www.buymeacoffee.com/aselasanjaya
 repository: https://github.com/aselak30/bluetooth_thermal_printer_pro
 issue_tracker: https://github.com/aselak30/bluetooth_thermal_printer_pro/issues
 

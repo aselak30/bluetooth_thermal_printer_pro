@@ -121,13 +121,13 @@ class _MyAppState extends State<MyApp> {
     }
 
     const sampleText = '''
-=== Sample Receipt ===
-Item 1       10.00
-Item 2       15.50
----------------------
-Total        25.50
-=====================
-''';
+        === Sample Receipt ===
+        Item 1       10.00
+        Item 2       15.50
+        ---------------------
+        Total        25.50
+        =====================
+        ''';
 
     final result = await BluetoothThermalPrinterPro.printText(sampleText);
     _showSnackBar(result == 'true' ? 'Printed successfully' : 'Print failed');
